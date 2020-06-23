@@ -1,0 +1,7 @@
+trigger:
+- master
+
+extends:
+  template: level1_template.yml
+  parameters:
+      yesNo: false # set to a non-boolean value to have the build fail
